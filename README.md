@@ -1,1 +1,1 @@
-# Agentic-Financial-Analyst-LangGraph
+# agentic-financial-analyst-langgraph
