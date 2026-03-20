@@ -1,0 +1,26 @@
+# ============================================================
+# Macroeconomic Analysis Agent — Python Dependencies
+# ============================================================
+
+# ── LangChain / LangGraph ────────────────────────────────────
+langchain>=0.3
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-openai>=0.3
+langchain-text-splitters>=0.3
+langgraph>=0.2
+
+# ── LLM providers ───────────────────────────────────────────
+openai>=1.30
+
+# ── Economic & Financial Data ────────────────────────────────
+yfinance>=0.2          # Market data: equities, bonds, FX, commodities
+fredapi>=0.5           # FRED API: GDP, CPI, unemployment, rates, etc.
+pandas>=2.1
+numpy>=1.26
+
+# ── Utilities ────────────────────────────────────────────────
+pydantic>=2.0
+pydantic-settings>=2.0
+python-dotenv>=1.0     # .env file loading
+tabulate>=0.9          # Table formatting
