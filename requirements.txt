@@ -24,3 +24,5 @@ pydantic>=2.0
 pydantic-settings>=2.0
 python-dotenv>=1.0     # .env file loading
 tabulate>=0.9          # Table formatting
+requests>=2.31         # HTTP for SEC EDGAR API calls
+beautifulsoup4>=4.12   # 10-K HTML parsing for qualitative tools
